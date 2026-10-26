@@ -24,6 +24,7 @@ included with the package.
       license          = 'lGPLv2',
       packages         = find_packages(exclude=['tests', 'tests.*']),
       install_requires = ['future', 'configparser', 'lxml'],
+      setup_requires   = ['pbr'],
       keywords         = 'spiff workflow bpmn engine',
       url              = 'https://github.com/knipknap/SpiffWorkflow',
       classifiers      = [
